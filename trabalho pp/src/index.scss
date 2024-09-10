@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #d8d8d8;
+}
+
+.pagina{
+  header{
+      display: flex;
+      background-color: #847dec;
+  }
+
+  main {
+    padding: 30px;
+
+    .aplicacao {
+        background-color: #fff;
+        width: 300px;
+        padding-left: 50px;
+        padding: 30px;
+        border-radius: 10px;
+        margin-left: 470px;
+
+        .botao {
+            margin-top: 20px;
+            margin-left: 150px;
+            margin-right: 0px;
+            padding: 10px;
+            background-color: #847dec;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: solid #000 1px;
+            border-radius: 6px;
+            outline: none;
+        }
+    }
+}
+}
